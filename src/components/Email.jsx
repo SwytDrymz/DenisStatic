@@ -29,7 +29,7 @@ let Email = React.forwardRef((props, ref) => {
 
   const sendDataToBackend = async (data) => {
     try {
-      const response = await axios.post("denis-api-swytdrymzs-projects.vercel.app/email", data);
+      const response = await axios.post("https://denis-api.vercel.app/email", data);
       console.log("Data successfully sent:", response.data);
       // Zde můžete provést další akce na základě odpovědi od serveru
     } catch (error) {
