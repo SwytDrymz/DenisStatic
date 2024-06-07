@@ -1,0 +1,18 @@
+
+.hlNadpis {
+  font-size: 230px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 0.5;
+}
+
+.finPorad {
+  margin-top: 10%;
+  color:rgb(26, 158, 222);
+  font-size: 50px;
+  line-height: 1;
+}
+
+.obr1 {
+  width: 25%;
+  height: 25%;
+}
